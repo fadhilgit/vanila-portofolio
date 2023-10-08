@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #272727;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    background-color: #000;
+    height: 87px;
+}
+
+nav .nav-logo {
+    font-family: 'Piedra', cursive;
+    margin-left:  24px;
+    font-size: 26px;
+    width: 20%;
+}
+
+nav .nav-menu {
+    width: 80%;
+    text-align: right;
+    margin-right: 24px;
+    font-size: 20px;
+    font-family: 'Pattaya', cursive;
+}
+
+.nav-menu ul li{
+    display: inline;
+    margin: 0px 30px;
+}
+
+.hero {
+    background: url(/assets/images/background-porto.jpg), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-photo {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: url(/assets/images/img-profile.jpg), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 14px;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.hero-title-name {
+    font-size: 22px;
+}
+
+.hero-title-job {
+    margin-top: 6px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 3px solid #7B7828;
+}
