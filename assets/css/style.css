@@ -79,3 +79,99 @@ nav .nav-menu {
     border-radius: 10px;
     border: 3px solid #7B7828;
 }
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    padding: 80px 200px;
+}
+.aboutme-title {
+    font-family: 'Pattaya', cursive;
+    font-size: 40px;
+}
+
+.aboutme-explain {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 70%;
+    width: 100%;
+    background-color: #181818;
+    margin-top: 18px;
+    border-radius: 32px;
+}
+.skills-left-result {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: right;
+}
+
+.skills-right-result {
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.right-result-box {
+    width: 60%;
+    height: 30px;
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.right-result-box p {
+    z-index: 2;
+}
+
+.persen-80 {
+    position: absolute;
+    justify-items: flex-start;
+    z-index: 1;
+    width: 80%;
+    height: 100%;
+    background-color: #7B7828;
+    left: 0;
+}
+
+.persen-75 {
+    position: absolute;
+    justify-items: flex-start;
+    z-index: 1;
+    width: 75%;
+    height: 100%;
+    background-color: #7B7828;
+    left: 0;
+}
+
+.persen-70 {
+    position: absolute;
+    justify-items: flex-start;
+    z-index: 1;
+    width: 70%;
+    height: 100%;
+    background-color: #7B7828;
+    left: 0;
+}
