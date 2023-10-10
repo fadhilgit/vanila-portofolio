@@ -34,7 +34,23 @@ nav .nav-menu {
 
 .nav-menu ul li{
     display: inline;
-    margin: 0px 30px;
+    margin: 0px 20px;
+    padding: 8px 24px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu ul li:hover {
+    background-color: #181818;
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 10px;
+    box-shadow: -4px 7px 13px -1px rgba(46,46,46,0.39);
+-webkit-box-shadow: -4px 7px 13px -1px rgba(46,46,46,0.39);
+-moz-box-shadow: -4px 7px 13px -1px rgba(46,46,46,0.39);
 }
 
 .hero {
@@ -174,4 +190,95 @@ nav .nav-menu {
     height: 100%;
     background-color: #7B7828;
     left: 0;
+}
+
+.my-project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 90vh;
+    padding: 80px 200px;
+    background-color: #181818;
+}
+
+.my-project-title {
+    font-family: 'Pattaya', cursive;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.card {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #272727;
+    height: 10rem;
+    border-radius: 32px;
+}
+
+.image-left {
+    width: 40%;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 32px 0 0 32px ;
+    filter:brightness(80%);
+}
+
+.card-img-right {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 32px 32px 0 ;
+    filter:brightness(80%);
+}
+
+.title-right {
+    padding: 20px 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-left {
+    padding: 20px 40px;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.title-right-first {
+    font-size: 24px;
+    font-weight: 700;
+}
+.title-right-second {
+    font-size: 24px;
+    font-weight: 700;
+}
+.title-right-third {
+    margin-top: 20px;
+}
+.title-right-detail {
+    font-size: 12px;
+    align-self: flex-end;
+    text-align: right;
+    width: 10%;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.title-right-detail a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.arrow {
+    font-size: 18px;
 }
